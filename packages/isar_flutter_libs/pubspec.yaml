@@ -5,13 +5,13 @@ repository: https://github.com/isar/isar
 homepage: https://isar.dev
 
 environment:
-  sdk: ">=3.1.0 <4.0.0"
-  flutter: ">=3.10.0"
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: '>=3.10.0'
 
-dependencies:
-  flutter:
-    sdk: flutter
-  isar: 0.0.0-placeholder
+isar:
+  git:
+    url: https://github.com/your-username/isar.git
+    path: packages/isar
 
 flutter:
   plugin:
